@@ -18,8 +18,8 @@ export default function NotFound() {
           alt="Rust Needs a Beer"
         />
         <h2 className="text-3xl">
-        I'll take a sixer of Old Milwaukee or Lone Star, nothing snooty. It's Thursday and it's past noon. Thursday is one of my days off. On my days off 
-          I start drinking at noon. You don't get to interrupt that. I'd appreciate a little hustle up on that.
+        I\'ll take a sixer of Old Milwaukee or Lone Star, nothing snooty. It\'s Thursday and it\'s past noon. Thursday is one of my days off. On my days off 
+          I start drinking at noon. You don\'t get to interrupt that. I\'d appreciate a little hustle up on that.
         </h2>
       </div>
 

@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <Script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></Script>
-      <Script>
+      <Script id="1" src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" />
+      <Script id="2">
         {`window.OneSignalDeferred = window.OneSignalDeferred || [];
         OneSignalDeferred.push(function(OneSignal) {
           OneSignal.init({

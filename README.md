@@ -1,5 +1,5 @@
 # Daily Quotes from Rust Cohle
-[Currently Live](https://rust-cohle-daily-quote.netlify.app/) deployed with [Netlify](https://netlify.com)
+[Currently Live](https://rust-cohle-daily-quote.netlify.app/) deployed with [Netlify](https://netlify.com) and push notifications through [OneSignal](https://onesignal.com).
 
 ### API Source
 Here is where I'm hosting the [API](https://rust-cohle-quotes.onrender.com/new-quote)

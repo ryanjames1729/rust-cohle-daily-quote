@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default async function Home() {
 
   const apiUrl = 'https://rust-cohle-quotes.onrender.com/new-quote';
-  let staticData = await fetch(apiUrl)
+  let staticData = await fetch(apiUrl, { next: { revalidate: 10 } })
     .then((res) => res.json());
   staticData = staticData['Rust says'];
   console.log(staticData);
